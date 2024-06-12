@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header .logo {
+  width: 50px;
+  height: auto;
+}
+
+.news-item h3 {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+      height: 200px;
+  }
+  
+  .news-item h3 {
+      font-size: 1rem;
+  }
+}
